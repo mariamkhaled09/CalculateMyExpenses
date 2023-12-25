@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="loginStyle.css">
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+  <script src="Validattion.js" defer></script>
+  <title>Registration Form</title>
+</head>
+<body>
+  <div class="registration-form">
+    <h1>Registration</h1>
+    <form action="LoginDB.php" method="POST" target="_blank" id="login">
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div class="input-group">
+        <label for="password">password:</label>
+        <input type="password" name="password" id="password" required>
+      </div>
+      <button type="submit" id="register-btn">Login</button>
+    </form>
+  </div>
+</body>
+</html>
